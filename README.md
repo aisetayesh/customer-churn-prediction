@@ -54,7 +54,7 @@ The goal of this project is to provide a clean and practical machine learning wo
 
 ## Repository Structure
 ```bash
-├── dataset/
+├── data/
 │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
 ├── churn_prediction.py
 └── README.md

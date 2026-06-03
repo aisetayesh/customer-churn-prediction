@@ -11,7 +11,7 @@ from sklearn import metrics
 # %%
 # Load Dataset
 # ==========================================
-dataframe = pd.read_csv("../dataset/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+dataframe = pd.read_csv("../data/WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
 # Drop unnecessary identifier column
 dataframe = dataframe.drop(columns=["customerID"])
